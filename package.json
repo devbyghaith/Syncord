@@ -1,0 +1,28 @@
+{
+  "name": "syncord",
+  "version": "1.0.0",
+  "main": "source/syncord",
+  "license": "MIT",
+  "author": {
+    "name": "icxaith",
+    "email": "me@icxaith.dev"
+  },
+  "scripts": {
+    "start": "node .",
+    "serve": "nodemon"
+  },
+  "dependencies": {
+    "@discordjs/rest": "^0.3.0",
+    "discord-api-types": "^0.31.1",
+    "discord-oauth2": "^2.10.0",
+    "discord.js": "^13.6.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "mysql2": "^2.3.3",
+    "passport": "^0.5.2",
+    "passport-discord": "^0.1.4",
+    "passport-oauth2-refresh": "^2.1.0",
+    "request": "^2.88.2"
+  }
+}

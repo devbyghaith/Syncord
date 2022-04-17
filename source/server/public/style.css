@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+:root {
+    --background-color-normal: #36393f;
+    --background-color-muted: #2f3136;
+    --background-color-dark: #202225;
+    --background-color-main: #5865F2;
+
+    --text-color-normal: #FFFFFFFF;
+    --text-color-muted: #FFFFFFB3;
+
+    --font-family-open-sans: 'Open Sans', sans-serif;
+    --font-family-poppins: 'Poppins', sans-serif;
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    color: var(--text-color-normal);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+
+body {
+    background-color: var(--background-color-normal);
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.container {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--background-color-muted);
+    box-shadow: 0 0 0 1px rgb(32 34 37 / 60%), 0 2px 10px 0 rgb(0 0 0 / 20%);
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    min-height: 400px;
+    min-width: 280px;
+    max-width: 400px;
+    left: 50%;
+    top: 50%;
+}
